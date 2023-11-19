@@ -149,22 +149,118 @@ td {
 }
 
 @media only screen and (max-width: 600px) {
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+
+    table {
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 20px;
+    }
+
+    td {
+        vertical-align: top;
+    }
+
+    .back_color {
+        background-color: rgb(245, 245, 245);
+    }
+
+    .blok img {
+        border-radius: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
     .cont,
     .educ,
     .skil {
-        width: auto;
-        /* Подстроить ширину для маленьких экранов */
-        border-radius: 0;
-        /* Убрать скругление углов для маленьких экранов */
+        border: 1px solid #5e5d5d;
+        width: 300px;
+        border-radius: 50px;
+        background-color: #5e5d5d;
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 18px;
     }
 
     .net {
-        width: auto;
-        /* Подстроить ширину для маленьких экранов */
-        padding: 0;
-        /* Убрать отступы для маленьких экранов */
+        width: 100px;
+    }
+
+    .contact_me,
+    .education,
+    .skils {
         text-align: center;
     }
 
-    /* Добавьте дополнительные стили для мобильных устройств при необходимости */
+    .center-right {
+        text-align: left;
+        display: inline-block;
+    }
+
+    .education p {
+        font-size: 15px;
+    }
+
+    .skil {
+        margin-bottom: 10px;
+    }
+
+    .table_skils tr {
+        text-align: start;
+    }
+
+    .header {
+        line-height: 0px;
+    }
+
+    #Maksim {
+        font-size: 70px;
+    }
+
+    #Chayka {
+        font-size: 50px;
+    }
+
+    #Python {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    .about-me h3 {
+        font-size: 25px;
+    }
+
+    .work-experience h3 {
+        font-size: 25px;
+    }
+
+    .contact h3 {
+        font-size: 25px;
+    }
+
+    .with {
+        width: 470px;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .net img {
+        border-radius: 30px;
+        max-width: 60px;
+        height: auto;
+    }
 }
