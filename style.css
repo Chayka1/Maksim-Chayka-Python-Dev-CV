@@ -149,16 +149,6 @@ td {
 }
 
 @media only screen and (max-width: 600px) {
-    .all {
-        border-radius: 0;
-        /* Убрать скругление углов для маленьких экранов */
-    }
-
-    .blok img {
-        border-radius: 0;
-        /* Убрать скругление углов для маленьких экранов */
-    }
-
     .cont,
     .educ,
     .skil {
