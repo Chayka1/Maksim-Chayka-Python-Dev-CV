@@ -155,7 +155,6 @@ td {
     .all {
         margin: 10px;
         max-width: none;
-        width: 50%;
         /* Снимаем ограничение по ширине */
     }
 
