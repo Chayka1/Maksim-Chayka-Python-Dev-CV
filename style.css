@@ -145,3 +145,48 @@ td {
 .table_skils {
     padding-left: 20px;
 }
+
+@media screen and (max-width: 600px) {
+
+    /* Уменьшаем размер шрифта для имени и профессии */
+    #Maksim {
+        font-size: 40px;
+    }
+
+    #Chayka {
+        font-size: 30px;
+    }
+
+    #Python {
+        font-size: 20px;
+    }
+
+    /* Уменьшаем ширину левой колонки с фото и контактами */
+    .back_color {
+        width: 30%;
+    }
+
+    /* Уменьшаем ширину правой колонки с информацией о себе и опыте работы */
+    .td2 {
+        width: 70%;
+    }
+
+    /* Уменьшаем отступы для текста в правой колонке */
+    .header,
+    .about-me,
+    .work-experience,
+    .contact {
+        padding: 0 10px;
+    }
+
+    /* Уменьшаем ширину таблицы с социальными сетями */
+    .net {
+        width: 50px;
+        padding: 0 10px;
+    }
+
+    /* Уменьшаем размер изображений социальных сетей */
+    .net img {
+        max-width: 40px;
+    }
+}
