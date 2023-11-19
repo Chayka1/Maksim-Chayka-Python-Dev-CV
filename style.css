@@ -6,7 +6,6 @@ html, body {
 .all {
     margin: auto;
     max-width: 800px;
-    border-radius: 70px;
     overflow: auto;
 }
 
@@ -46,11 +45,10 @@ td {
 .cont, .educ, .skil{
     border: 1px solid #5e5d5d;
     width: 300px;
-    border-radius: 50px;
     background-color: #5e5d5d;
     color: #fff;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
     font-size: 18px;
 }
 
