@@ -151,6 +151,12 @@ td {
         background-size: auto;
         /* Изменение размера фона для мобильных устройств */
     }
+    
+    .all {
+        margin: 10px;
+        max-width: none;
+        /* Снимаем ограничение по ширине */
+    }
 
     .blok img {
         width: 50%;
