@@ -145,14 +145,3 @@ td {
 .table_skils {
     padding-left: 20px;
 }
-
-@media (max-width: 600px) {
-    body {
-        background-size: auto;
-    }
-
-    .all {
-        margin: 10px auto;
-        background-size: auto;
-    }
-}
