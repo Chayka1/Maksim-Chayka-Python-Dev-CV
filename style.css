@@ -8,6 +8,7 @@ html, body {
     margin-top: 10px;
     max-width: 800px;
     overflow: auto;
+    margin-bottom: 20px;
 }
 
 table {
@@ -19,7 +20,7 @@ table {
 body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 20px;
-    background-image: url('a212ed35bc248e91e7aa89b3d726fe9f.jpg');
+    background-image: url('pexels-pixabay-459277.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
